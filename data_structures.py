@@ -14,6 +14,6 @@ unique_numbers.sort(reverse=True)
 if len(unique_numbers) < 2:
     print("Need at least two unique numbers to find the second largest.")
 else:
-    # Get the second largest number
+    # Get the second largest number - git commit
     second_largest = unique_numbers[1]
     print("The second largest number is:", second_largest)
